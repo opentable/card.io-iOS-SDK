@@ -25,8 +25,9 @@
 		00B4F0C41B28222700025DDE /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B4F0C31B28222700025DDE /* OpenGLES.framework */; };
 		00B4F0C61B28223100025DDE /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B4F0C51B28223100025DDE /* libc++.dylib */; };
 		00B4F0C81B28223A00025DDE /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B4F0C71B28223A00025DDE /* MobileCoreServices.framework */; };
-		00B4F0CA1B2822A300025DDE /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B4F0C91B2822A300025DDE /* AVFoundation.framework */; };
-		00B4F0CC1B2822AA00025DDE /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B4F0CB1B2822AA00025DDE /* AVKit.framework */; };
+		00B4F0D01B28233700025DDE /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B4F0CF1B28233700025DDE /* CoreMedia.framework */; };
+		00B4F0D21B28236600025DDE /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B4F0D11B28236600025DDE /* CoreVideo.framework */; };
+		00B4F0D31B28237100025DDE /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B4F0C91B2822A300025DDE /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,9 @@
 		00B4F0C71B28223A00025DDE /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		00B4F0C91B2822A300025DDE /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		00B4F0CB1B2822AA00025DDE /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		00B4F0CD1B2822F600025DDE /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		00B4F0CF1B28233700025DDE /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		00B4F0D11B28236600025DDE /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,8 +65,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00B4F0CC1B2822AA00025DDE /* AVKit.framework in Frameworks */,
-				00B4F0CA1B2822A300025DDE /* AVFoundation.framework in Frameworks */,
+				00B4F0D31B28237100025DDE /* AVFoundation.framework in Frameworks */,
+				00B4F0D21B28236600025DDE /* CoreVideo.framework in Frameworks */,
+				00B4F0D01B28233700025DDE /* CoreMedia.framework in Frameworks */,
 				00B4F0C81B28223A00025DDE /* MobileCoreServices.framework in Frameworks */,
 				00B4F0C61B28223100025DDE /* libc++.dylib in Frameworks */,
 				00B4F0C41B28222700025DDE /* OpenGLES.framework in Frameworks */,
@@ -81,6 +86,9 @@
 		003630B71B27B81D007691A1 = {
 			isa = PBXGroup;
 			children = (
+				00B4F0D11B28236600025DDE /* CoreVideo.framework */,
+				00B4F0CF1B28233700025DDE /* CoreMedia.framework */,
+				00B4F0CD1B2822F600025DDE /* CoreImage.framework */,
 				00B4F0CB1B2822AA00025DDE /* AVKit.framework */,
 				00B4F0C91B2822A300025DDE /* AVFoundation.framework */,
 				00B4F0C71B28223A00025DDE /* MobileCoreServices.framework */,
