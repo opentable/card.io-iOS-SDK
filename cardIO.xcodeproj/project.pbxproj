@@ -25,6 +25,8 @@
 		00B4F0C41B28222700025DDE /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B4F0C31B28222700025DDE /* OpenGLES.framework */; };
 		00B4F0C61B28223100025DDE /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B4F0C51B28223100025DDE /* libc++.dylib */; };
 		00B4F0C81B28223A00025DDE /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B4F0C71B28223A00025DDE /* MobileCoreServices.framework */; };
+		00B4F0CA1B2822A300025DDE /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B4F0C91B2822A300025DDE /* AVFoundation.framework */; };
+		00B4F0CC1B2822AA00025DDE /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B4F0CB1B2822AA00025DDE /* AVKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +52,8 @@
 		00B4F0C31B28222700025DDE /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		00B4F0C51B28223100025DDE /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
 		00B4F0C71B28223A00025DDE /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		00B4F0C91B2822A300025DDE /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		00B4F0CB1B2822AA00025DDE /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00B4F0CC1B2822AA00025DDE /* AVKit.framework in Frameworks */,
+				00B4F0CA1B2822A300025DDE /* AVFoundation.framework in Frameworks */,
 				00B4F0C81B28223A00025DDE /* MobileCoreServices.framework in Frameworks */,
 				00B4F0C61B28223100025DDE /* libc++.dylib in Frameworks */,
 				00B4F0C41B28222700025DDE /* OpenGLES.framework in Frameworks */,
@@ -75,6 +81,8 @@
 		003630B71B27B81D007691A1 = {
 			isa = PBXGroup;
 			children = (
+				00B4F0CB1B2822AA00025DDE /* AVKit.framework */,
+				00B4F0C91B2822A300025DDE /* AVFoundation.framework */,
 				00B4F0C71B28223A00025DDE /* MobileCoreServices.framework */,
 				00B4F0C51B28223100025DDE /* libc++.dylib */,
 				00B4F0C31B28222700025DDE /* OpenGLES.framework */,
