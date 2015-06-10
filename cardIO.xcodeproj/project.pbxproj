@@ -1,0 +1,355 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		000333991B27B863008C973D /* CardIOCreditCardInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 000333901B27B863008C973D /* CardIOCreditCardInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0003339A1B27B863008C973D /* CardIODetectionMode.h in Headers */ = {isa = PBXBuildFile; fileRef = 000333911B27B863008C973D /* CardIODetectionMode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0003339B1B27B863008C973D /* CardIOPaymentViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 000333921B27B863008C973D /* CardIOPaymentViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0003339C1B27B863008C973D /* CardIOPaymentViewControllerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 000333931B27B863008C973D /* CardIOPaymentViewControllerDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0003339D1B27B863008C973D /* CardIOUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 000333941B27B863008C973D /* CardIOUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0003339E1B27B863008C973D /* CardIOView.h in Headers */ = {isa = PBXBuildFile; fileRef = 000333951B27B863008C973D /* CardIOView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0003339F1B27B863008C973D /* CardIOViewDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 000333961B27B863008C973D /* CardIOViewDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		000333A01B27B863008C973D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 000333971B27B863008C973D /* Info.plist */; };
+		000333A11B27B863008C973D /* libCardIO.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 000333981B27B863008C973D /* libCardIO.a */; };
+		000333A31B27B87E008C973D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 000333A21B27B87E008C973D /* UIKit.framework */; };
+		000333A51B27B882008C973D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 000333A41B27B882008C973D /* Foundation.framework */; };
+		003630C71B27B81D007691A1 /* cardIO.h in Headers */ = {isa = PBXBuildFile; fileRef = 003630C61B27B81D007691A1 /* cardIO.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		000333901B27B863008C973D /* CardIOCreditCardInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CardIOCreditCardInfo.h; path = CardIO/CardIOCreditCardInfo.h; sourceTree = SOURCE_ROOT; };
+		000333911B27B863008C973D /* CardIODetectionMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CardIODetectionMode.h; path = CardIO/CardIODetectionMode.h; sourceTree = SOURCE_ROOT; };
+		000333921B27B863008C973D /* CardIOPaymentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CardIOPaymentViewController.h; path = CardIO/CardIOPaymentViewController.h; sourceTree = SOURCE_ROOT; };
+		000333931B27B863008C973D /* CardIOPaymentViewControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CardIOPaymentViewControllerDelegate.h; path = CardIO/CardIOPaymentViewControllerDelegate.h; sourceTree = SOURCE_ROOT; };
+		000333941B27B863008C973D /* CardIOUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CardIOUtilities.h; path = CardIO/CardIOUtilities.h; sourceTree = SOURCE_ROOT; };
+		000333951B27B863008C973D /* CardIOView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CardIOView.h; path = CardIO/CardIOView.h; sourceTree = SOURCE_ROOT; };
+		000333961B27B863008C973D /* CardIOViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CardIOViewDelegate.h; path = CardIO/CardIOViewDelegate.h; sourceTree = SOURCE_ROOT; };
+		000333971B27B863008C973D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = CardIO/Info.plist; sourceTree = SOURCE_ROOT; };
+		000333981B27B863008C973D /* libCardIO.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libCardIO.a; path = CardIO/libCardIO.a; sourceTree = SOURCE_ROOT; };
+		000333A21B27B87E008C973D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		000333A41B27B882008C973D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		003630C11B27B81D007691A1 /* cardIO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = cardIO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		003630C51B27B81D007691A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		003630C61B27B81D007691A1 /* cardIO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cardIO.h; sourceTree = "<group>"; };
+		003630D21B27B81D007691A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		003630D31B27B81D007691A1 /* cardIOTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cardIOTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		003630BD1B27B81D007691A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000333A51B27B882008C973D /* Foundation.framework in Frameworks */,
+				000333A31B27B87E008C973D /* UIKit.framework in Frameworks */,
+				000333A11B27B863008C973D /* libCardIO.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		003630B71B27B81D007691A1 = {
+			isa = PBXGroup;
+			children = (
+				000333A41B27B882008C973D /* Foundation.framework */,
+				000333A21B27B87E008C973D /* UIKit.framework */,
+				003630C31B27B81D007691A1 /* cardIO */,
+				003630D01B27B81D007691A1 /* cardIOTests */,
+				003630C21B27B81D007691A1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		003630C21B27B81D007691A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				003630C11B27B81D007691A1 /* cardIO.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		003630C31B27B81D007691A1 /* cardIO */ = {
+			isa = PBXGroup;
+			children = (
+				000333901B27B863008C973D /* CardIOCreditCardInfo.h */,
+				000333911B27B863008C973D /* CardIODetectionMode.h */,
+				000333921B27B863008C973D /* CardIOPaymentViewController.h */,
+				000333931B27B863008C973D /* CardIOPaymentViewControllerDelegate.h */,
+				000333941B27B863008C973D /* CardIOUtilities.h */,
+				000333951B27B863008C973D /* CardIOView.h */,
+				000333961B27B863008C973D /* CardIOViewDelegate.h */,
+				000333971B27B863008C973D /* Info.plist */,
+				000333981B27B863008C973D /* libCardIO.a */,
+				003630C61B27B81D007691A1 /* cardIO.h */,
+				003630C41B27B81D007691A1 /* Supporting Files */,
+			);
+			path = cardIO;
+			sourceTree = "<group>";
+		};
+		003630C41B27B81D007691A1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				003630C51B27B81D007691A1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		003630D01B27B81D007691A1 /* cardIOTests */ = {
+			isa = PBXGroup;
+			children = (
+				003630D31B27B81D007691A1 /* cardIOTests.m */,
+				003630D11B27B81D007691A1 /* Supporting Files */,
+			);
+			path = cardIOTests;
+			sourceTree = "<group>";
+		};
+		003630D11B27B81D007691A1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				003630D21B27B81D007691A1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		003630BE1B27B81D007691A1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				003630C71B27B81D007691A1 /* cardIO.h in Headers */,
+				0003339A1B27B863008C973D /* CardIODetectionMode.h in Headers */,
+				0003339F1B27B863008C973D /* CardIOViewDelegate.h in Headers */,
+				0003339B1B27B863008C973D /* CardIOPaymentViewController.h in Headers */,
+				0003339C1B27B863008C973D /* CardIOPaymentViewControllerDelegate.h in Headers */,
+				000333991B27B863008C973D /* CardIOCreditCardInfo.h in Headers */,
+				0003339E1B27B863008C973D /* CardIOView.h in Headers */,
+				0003339D1B27B863008C973D /* CardIOUtilities.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		003630C01B27B81D007691A1 /* cardIO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 003630D71B27B81D007691A1 /* Build configuration list for PBXNativeTarget "cardIO" */;
+			buildPhases = (
+				003630BC1B27B81D007691A1 /* Sources */,
+				003630BD1B27B81D007691A1 /* Frameworks */,
+				003630BE1B27B81D007691A1 /* Headers */,
+				003630BF1B27B81D007691A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cardIO;
+			productName = cardIO;
+			productReference = 003630C11B27B81D007691A1 /* cardIO.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		003630B81B27B81D007691A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = PayPayl;
+				TargetAttributes = {
+					003630C01B27B81D007691A1 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+				};
+			};
+			buildConfigurationList = 003630BB1B27B81D007691A1 /* Build configuration list for PBXProject "cardIO" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 003630B71B27B81D007691A1;
+			productRefGroup = 003630C21B27B81D007691A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				003630C01B27B81D007691A1 /* cardIO */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		003630BF1B27B81D007691A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000333A01B27B863008C973D /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		003630BC1B27B81D007691A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		003630D51B27B81D007691A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		003630D61B27B81D007691A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		003630D81B27B81D007691A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = cardIO/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "${SRCROOT}/CardIO";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		003630D91B27B81D007691A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = cardIO/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "${SRCROOT}/CardIO";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		003630BB1B27B81D007691A1 /* Build configuration list for PBXProject "cardIO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				003630D51B27B81D007691A1 /* Debug */,
+				003630D61B27B81D007691A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		003630D71B27B81D007691A1 /* Build configuration list for PBXNativeTarget "cardIO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				003630D81B27B81D007691A1 /* Debug */,
+				003630D91B27B81D007691A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 003630B81B27B81D007691A1 /* Project object */;
+}
