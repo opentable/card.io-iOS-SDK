@@ -19,6 +19,12 @@
 		000333A31B27B87E008C973D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 000333A21B27B87E008C973D /* UIKit.framework */; };
 		000333A51B27B882008C973D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 000333A41B27B882008C973D /* Foundation.framework */; };
 		003630C71B27B81D007691A1 /* cardIO.h in Headers */ = {isa = PBXBuildFile; fileRef = 003630C61B27B81D007691A1 /* cardIO.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		00B4F0BE1B2821E400025DDE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B4F0BD1B2821E400025DDE /* CoreGraphics.framework */; };
+		00B4F0C01B2821EF00025DDE /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B4F0BF1B2821EF00025DDE /* AudioToolbox.framework */; };
+		00B4F0C21B28221D00025DDE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B4F0C11B28221D00025DDE /* QuartzCore.framework */; };
+		00B4F0C41B28222700025DDE /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B4F0C31B28222700025DDE /* OpenGLES.framework */; };
+		00B4F0C61B28223100025DDE /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B4F0C51B28223100025DDE /* libc++.dylib */; };
+		00B4F0C81B28223A00025DDE /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B4F0C71B28223A00025DDE /* MobileCoreServices.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +44,12 @@
 		003630C61B27B81D007691A1 /* cardIO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cardIO.h; sourceTree = "<group>"; };
 		003630D21B27B81D007691A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		003630D31B27B81D007691A1 /* cardIOTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cardIOTests.m; sourceTree = "<group>"; };
+		00B4F0BD1B2821E400025DDE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		00B4F0BF1B2821EF00025DDE /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		00B4F0C11B28221D00025DDE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		00B4F0C31B28222700025DDE /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		00B4F0C51B28223100025DDE /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		00B4F0C71B28223A00025DDE /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +57,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00B4F0C81B28223A00025DDE /* MobileCoreServices.framework in Frameworks */,
+				00B4F0C61B28223100025DDE /* libc++.dylib in Frameworks */,
+				00B4F0C41B28222700025DDE /* OpenGLES.framework in Frameworks */,
+				00B4F0C21B28221D00025DDE /* QuartzCore.framework in Frameworks */,
+				00B4F0C01B2821EF00025DDE /* AudioToolbox.framework in Frameworks */,
+				00B4F0BE1B2821E400025DDE /* CoreGraphics.framework in Frameworks */,
 				000333A51B27B882008C973D /* Foundation.framework in Frameworks */,
 				000333A31B27B87E008C973D /* UIKit.framework in Frameworks */,
 				000333A11B27B863008C973D /* libCardIO.a in Frameworks */,
@@ -57,6 +75,12 @@
 		003630B71B27B81D007691A1 = {
 			isa = PBXGroup;
 			children = (
+				00B4F0C71B28223A00025DDE /* MobileCoreServices.framework */,
+				00B4F0C51B28223100025DDE /* libc++.dylib */,
+				00B4F0C31B28222700025DDE /* OpenGLES.framework */,
+				00B4F0C11B28221D00025DDE /* QuartzCore.framework */,
+				00B4F0BF1B2821EF00025DDE /* AudioToolbox.framework */,
+				00B4F0BD1B2821E400025DDE /* CoreGraphics.framework */,
 				000333A41B27B882008C973D /* Foundation.framework */,
 				000333A21B27B87E008C973D /* UIKit.framework */,
 				003630C31B27B81D007691A1 /* cardIO */,
